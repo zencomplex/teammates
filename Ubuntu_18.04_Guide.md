@@ -42,7 +42,26 @@ These tools are necessary regardless of whether you are developing front-end or 
 
 1. Install JDK 1.8.
    > first, update your package index.
-   > ```sudo apt-get update```
+   ```sh 
+   sudo apt-get update
+   ```
+   > then, check your java version.
+   ```sh
+   java -version
+   ```
+   > you should see this:
+   ```sh
+   Command 'java' not found, but can be installed with:
+
+   apt install default-jre
+   apt install openjdk-11-jre-headless
+   apt install openjdk-8-jre-headless
+   apt install openjdk-9-jre-headless
+   ```
+   > install openjdk version 8 (JDK 1.8) 
+   ```sh
+   sudo apt install openjdk-8-jdk
+   ```
    
 1. Install Python 2.7.
 1. Install Google Cloud SDK (minimum version 222.0.0). Follow the directions given [here](https://cloud.google.com/sdk/downloads).
