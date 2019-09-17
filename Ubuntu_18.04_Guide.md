@@ -64,6 +64,10 @@ These tools are necessary regardless of whether you are developing front-end or 
    ```
    
 1. Install Python 2.7.
+   ```sh
+   sudo apt install python-minimal
+   ```
+
 1. Install Google Cloud SDK (minimum version 222.0.0). Follow the directions given [here](https://cloud.google.com/sdk/downloads).
    Note that you *do not* need to [initialize the SDK](https://cloud.google.com/sdk/docs/initializing).
    ```sh
